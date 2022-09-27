@@ -36,11 +36,12 @@
   justify-content: space-between;
 }
 
-/* #searchBox {
+#searchBox {
   display: flex;
   position: absolute;
+  justify-content: end;
   
-} */
+}
 
 #search input {
   width: 80%;
@@ -143,6 +144,9 @@
 }
 .footer {
   width: 100%;
+  background-color: black;
+}
+#places{
   background-color: black;
 }
 #f1 {
